@@ -1,0 +1,16 @@
+experimento,dataset,tamanho_mb,palavra,algoritmo,threads_ou_cus,amostras,ocorrencias,media_total_ms,desvio_total_ms,min_total_ms,max_total_ms,media_io_ms,media_setup_transfer_ms,media_computo_ms,speedup_total,speedup_computo,eficiencia_pct
+Exp1_Amostras,Dracula (0.85 MB),0.849,blood,SerialCPU,1,5,113,7.0278,1.8198,4.5720,9.5029,2.9069,0.0000,4.0067,1.0000,1.0000,100.00
+Exp1_Amostras,Dracula (0.85 MB),0.849,blood,ParallelCPU (4T),4,5,113,4.9559,1.4657,3.5821,7.4389,3.0120,0.0610,1.7715,1.4181,2.2617,56.54
+Exp1_Amostras,Dracula (0.85 MB),0.849,blood,ParallelCPU (8T),8,5,113,5.7924,3.0925,3.6255,10.7441,4.0405,0.0649,1.5870,1.2133,2.5247,31.56
+Exp1_Amostras,Dracula (0.85 MB),0.849,blood,ParallelGPU (Warm),24,5,113,4.4446,1.5637,3.5475,7.2325,2.4662,0.9430,0.8509,1.5812,4.7089,19.62
+Exp1_Amostras,Dracula (0.85 MB),0.849,blood,ParallelGPU (Cold),24,3,113,873.4924,173.3377,686.4435,1028.7055,4.0737,868.3620,0.7658,0.0080,5.2320,21.80
+Exp1_Amostras,Moby Dick (1.22 MB),1.217,whale,SerialCPU,1,5,1244,8.9459,1.5654,7.3188,11.1687,3.4780,0.0000,5.3752,1.0000,1.0000,100.00
+Exp1_Amostras,Moby Dick (1.22 MB),1.217,whale,ParallelCPU (4T),4,5,1244,8.2441,1.6377,6.2816,10.0173,5.4532,0.0978,2.3876,1.0851,2.2514,56.28
+Exp1_Amostras,Moby Dick (1.22 MB),1.217,whale,ParallelCPU (8T),8,5,1244,6.5934,3.0365,4.1931,11.6405,3.4749,0.0623,2.9619,1.3568,1.8148,22.69
+Exp1_Amostras,Moby Dick (1.22 MB),1.217,whale,ParallelGPU (Warm),24,5,1244,8.7673,3.0205,4.0758,12.4717,5.9890,1.6509,0.9123,1.0204,5.8918,24.55
+Exp1_Amostras,Moby Dick (1.22 MB),1.217,whale,ParallelGPU (Cold),24,3,1244,652.3606,14.7413,638.9596,668.1505,2.7034,648.5320,0.8880,0.0137,6.0534,25.22
+Exp1_Amostras,Don Quixote (2.12 MB),2.123,quijote,SerialCPU,1,5,2245,18.3892,3.4908,14.8188,24.1915,8.3307,0.0000,9.9129,1.0000,1.0000,100.00
+Exp1_Amostras,Don Quixote (2.12 MB),2.123,quijote,ParallelCPU (4T),4,5,2245,9.7969,3.0930,7.4396,14.7733,5.3734,0.0854,4.1526,1.8770,2.3872,59.68
+Exp1_Amostras,Don Quixote (2.12 MB),2.123,quijote,ParallelCPU (8T),8,5,2245,11.7297,2.0087,8.2443,13.2104,8.2620,0.0769,3.2861,1.5677,3.0166,37.71
+Exp1_Amostras,Don Quixote (2.12 MB),2.123,quijote,ParallelGPU (Warm),24,5,2245,10.0266,2.9370,6.8781,13.8778,6.8889,1.6673,1.2539,1.8340,7.9055,32.94
+Exp1_Amostras,Don Quixote (2.12 MB),2.123,quijote,ParallelGPU (Cold),24,3,2245,665.6477,24.6737,638.3258,686.3035,7.6921,656.0929,1.2958,0.0276,7.6498,31.87

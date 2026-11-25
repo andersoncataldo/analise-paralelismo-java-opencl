@@ -1,0 +1,14 @@
+# Classes compiladas
+out/
+*.class
+
+# Arquivos temporários de IDE / SO
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Arquivos compactados originais (já extraídos em amostras/ e lib/)
+Amostras.zip
+jocl-2.0.4.zip
